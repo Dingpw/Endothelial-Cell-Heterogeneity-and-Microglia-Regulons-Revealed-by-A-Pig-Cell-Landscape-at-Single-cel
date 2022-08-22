@@ -1,1 +1,1 @@
-STAR --runThreadN 10 --runMode genomeGenerate --genomeDir ./Reference/Index/ --genomeFastaFiles ./Reference/Sus_scrofa.Sccrofa11.1.dna.toplevel.fa --sjdbGTFfile ./Reference/Sus_scrofa.Sscrofa11.1.96_premRNA.gtf --sjdbOverhang 9
+STAR --runThreadN 3 --runMode genomeGenerate --genomeDir index --genomeFastaFiles Sus_scrofa.Sscrofa11.1.dna.toplevel.fa --sjdbGTFfile ref/Sus_scrofa.Sscrofa11.1.Release_99.gtf --sjdbOverhang 99
