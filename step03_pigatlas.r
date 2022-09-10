@@ -918,7 +918,7 @@ dim(data)
 ############## Double Finder
 data <- NormalizeData(object = data, normalization.method = "LogNormalize")
 data <- FindVariableFeatures(object = data, mean.function = ExpMean, dispersion.function = LogVMR)
-data <- ScaleData(object = data, vars.to.regress = c("nCount_RNA", "percent.mito"))
+data <- ScaleData(object = data, vars.to.regress = c("nCount_RNA"))
 data <- RunPCA(data, verbose = FALSE)
 pdf('03_ElbowPlot.pdf')
 ElbowPlot(data, ndims=50)  ##change dims
@@ -1072,7 +1072,7 @@ dim(data)
 ############## 
 data <- NormalizeData(object = data, normalization.method = "LogNormalize")
 data <- FindVariableFeatures(object = data, mean.function = ExpMean, dispersion.function = LogVMR)
-data <- ScaleData(object = data, vars.to.regress = c("nCount_RNA", "percent.mito"))
+data <- ScaleData(object = data, vars.to.regress = c("nCount_RNA"))
 data <- RunPCA(data, verbose = FALSE)
 pdf('03_ElbowPlot.pdf')
 ElbowPlot(data, ndims=50)  ##change dims
