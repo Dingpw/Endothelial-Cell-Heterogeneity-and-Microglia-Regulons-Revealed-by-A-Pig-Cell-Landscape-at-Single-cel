@@ -54,10 +54,8 @@ while(m_i<i){
   m_i<-m_i+1
   idrop_LR_object<-merge(idrop_LR_object,y=idrop_LR[[m_i]],add.cell.ids = c("",paste("idrop",m_i,tissue_abb,sep = "_")), project = paste("idrop",tissue_abb,sep = ""))
 }
-
-idrop_LR_object[["percent.mt"]] <- PercentageFeatureSet(idrop_LR_object, features = c("ND2","COX1","COX2",
-                                                                "ATP8", "ATP6","COX3","ND3",
-                                                                "ND4L", "ND4","ND5", "ND6","CYTB"))
+#features = c("ND2","COX1","COX2","ATP8", "ATP6","COX3","ND3","ND4L", "ND4","ND5", "ND6","CYTB")
+idrop_LR_object[["percent.mt"]] <- PercentageFeatureSet(idrop_LR_object, pattern = "^MT-")
 
 idrop_LR_object[["percent.rib"]] <- PercentageFeatureSet(idrop_LR_object, 
                                                          features=intersect(rownames(idrop_LR_object),ribosome_genes$V2))
@@ -156,9 +154,8 @@ seurat_data <- CreateSeuratObject(counts = seurat.data,
                                   min.cells = 3, 
                                   min.features = 0)
 idrop_LR_object<-seurat_data
-idrop_LR_object[["percent.mt"]] <- PercentageFeatureSet(idrop_LR_object, features = c("ND2","COX1","COX2",
-                                                                "ATP8", "ATP6","COX3","ND3",
-                                                                "ND4L", "ND4","ND5", "ND6","CYTB"))
+#features = c("ND2","COX1","COX2","ATP8", "ATP6","COX3","ND3","ND4L", "ND4","ND5", "ND6","CYTB")
+idrop_LR_object[["percent.mt"]] <- PercentageFeatureSet(idrop_LR_object, pattern = "^MT-")
 
 idrop_LR_object[["percent.rib"]] <- PercentageFeatureSet(idrop_LR_object, 
                                                          features=intersect(rownames(idrop_LR_object),ribosome_genes$V2))
