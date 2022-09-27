@@ -10,9 +10,13 @@ Fei Wang†, Peiwen Ding†, Xue Liang†, Xiangning Ding†, Camilla Blunk Bran
 
 # Software version
 CellRanger version 3.0.2 (https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger)
+
 STAR version 2.7.1a  (https://github.com/alexdobin/STAR/)
+
 Cromwell release 35 (https://github.com/broadinstitute/cromwell/)
+
 DNBelab_C_Series_HT_scRNA-analysis-software (https://github.com/MGI-tech-bioinformatics/DNBelab_C_Series_HT_scRNA-analysis-software)
+
 PISA version 0.5 (https://github.com/shiquan/PISA/)
 
 R-3.6.1
