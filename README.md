@@ -9,8 +9,10 @@ Endothelial Cell Heterogeneity and Microglia Regulons Revealed by A Pig Cell Lan
 Fei Wang†, Peiwen Ding†, Xue Liang†, Xiangning Ding†, Camilla Blunk Brandt†, Evelina Sjöstedt, Jiacheng Zhu, Saga Bolund, Lijing Zhang, Laura P.M.H. de Rooij, Lihua Luo, Yanan Wei, Wandong Zhao, Zhiyuan Lv, János Haskó, Runchu Li, Qiuyu Qin, Yi Jia, Wendi Wu, Yuting Yuan, Mingyi Pu, Haoyu Wang, Aiping Wu, Lin Xie, Ping Liu, Fang Chen, Jacqueline Herold, Joanna Kalucka, Max Karlsson, Xiuqing Zhang, Rikke Bek Helmig, Linn Fagerberg, Cecilia Lindskog, Fredrik Pontén, Mathias Uhlen, Lars Bolund, Niels Jessen, Hui Jiang, Xun Xu, Huanming Yang, Peter Carmeliet, Jan Mulder, Dongsheng Chen*, Lin Lin*, Yonglun Luo*
 
 # Software version
-CellRanger-3.0.2
-
-Sus_scrofa.Sscrofa11.1.96.gtf
+CellRanger version 3.0.2 (https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger)
+STAR version 2.7.1a  (https://github.com/alexdobin/STAR/)
+Cromwell release 35 (https://github.com/broadinstitute/cromwell/)
+DNBelab_C_Series_HT_scRNA-analysis-software (https://github.com/MGI-tech-bioinformatics/DNBelab_C_Series_HT_scRNA-analysis-software)
+PISA version 0.5 (https://github.com/shiquan/PISA/)
 
 R-3.6.1
