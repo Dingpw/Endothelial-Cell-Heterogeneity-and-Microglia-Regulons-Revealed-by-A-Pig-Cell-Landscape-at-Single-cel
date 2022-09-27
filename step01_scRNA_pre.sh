@@ -17,3 +17,9 @@
                   --attribute=gene_biotype:TR_J_gene \
                   --attribute=gene_biotype:TR_J_pseudogene \
                   --attribute=gene_biotype:TR_C_gene
+                  
+/Software/cellranger-3.0.2_R/cellranger mkref \
+                  --genome=susScr11_genome \
+                  --fasta=Sus_scrofa.Sscrofa11.1.dna.toplevel.fa \
+                  --genes=Sus_scrofa.Sscrofa11.1.96.filtered.gtf
+                  --nthreads=8
