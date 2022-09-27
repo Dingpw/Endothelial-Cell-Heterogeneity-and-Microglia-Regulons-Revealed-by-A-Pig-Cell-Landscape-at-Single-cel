@@ -1,0 +1,27 @@
+{
+
+   "main.fastq1": "CNSA/DP8400009910TR_L01_6_1.fq.gz",
+
+   "main.fastq2": "CNSA/DP8400009910TR_L01_6_2.fq.gz",
+
+   "main.lib": "lib.sh",
+
+   "main.root": "tools/v0.5",
+
+   "main.expectCell": "1500",
+
+   "main.gtf": "ref/Sus_scrofa.Sscrofa11.1.99.gtf",
+
+   "main.ID": "c7",
+
+   "main.Java": "/usr/bin/java",
+
+   "main.outdir": "./",
+
+   "main.config": "config/BGI_droplet_scRNA_readStructureV2_T1.json",
+
+   "main.Rscript": "bin/Rscript",
+
+   "main.refdir": "index/"
+
+}
